@@ -1,0 +1,146 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+.conditionTest {
+    width: 100%;
+    float: left;
+    margin-top: 20px;
+    padding-bottom: 25px;
+}
+
+.conditionTest ul {
+    list-style: none;
+}
+
+.conditionTest li {
+    float: left;
+    width: calc(25% - 16px);
+    /* height: 62px; */
+    border: #dcdcdc solid 1px;
+    box-shadow: 0 2px 1px #a4a4a4; 
+    text-align: center;
+    margin: 0 8px;
+    margin-bottom: 12px;
+    position: relative;
+    background: #fff;
+    border-radius: 3px;
+    box-sizing: border-box;
+	padding: 0 12px;
+}
+
+.conditionTest li a:after{ content:''; width:10px; height:20px; position:absolute; right:15px; top:34%; background:url(../images/ero-icn.png); -webkit-transition: all 0.2s ease-out 0s;
+    -moz-transition: all 0.2s ease-out 0s;
+    -o-transition: all 0.2s ease-out 0s;
+    transition: all 0.2s ease-out 0s;}
+
+.conditionTest li a {
+    font-family: 'Roboto', sans-serif;
+    color: #000;
+    font-size: 18px;
+    text-decoration: none;
+    line-height: 55px;
+    text-transform: capitalize;
+    display: block;
+    text-align: left;
+	-webkit-transition: all 0.2s ease-out 0s;
+    -moz-transition: all 0.2s ease-out 0s;
+    -o-transition: all 0.2s ease-out 0s;
+    transition: all 0.2s ease-out 0s;
+}
+
+.conditionTest li a:hover {
+	color:#fdc02f;
+    
+}
+
+.conditionTest li a:hover::after {
+	right:5px;
+    
+}
+
+
+.dr-banner {width:100%; float:left; background:#eeeeee; padding:22px 0px 22px;}
+.dr-banner-content{width:1180px; margin:0 auto; }
+.dr-banner-imgcontain { width:100%; margin:25px 0; float:left;}
+.dr-banner-imgcontain p{ width:33.3%; float:left;}
+/*.dr-banner-imgcontain img {width:100%;}*/
+
+.dr-desktopBanner{ width:100%; float:left;}
+.dr-desktopBanner img{ width:100%}
+.doctorBanner{ display:none}
+.doctorSlider{ float:left;}
+
+
+.labOnco{ width:100%; height:auto; float:left; margin:0; padding:0; list-style:none; margin:0 0 25px 0;}
+.labOnco li{ width:calc(50% - 8px); border:10px solid #fff; box-sizing: border-box; padding:15px; height:160px; position:relative; box-shadow: 0px 6px 4px 3px rgba(0,0,0,0.15); border-radius: 5px;}
+.labOnco li:nth-child(1){ background:#e5eba1; float:left;}
+.labOnco li:nth-child(2){ background:#9fddf4; float:right;}
+.labOnco li a{ color: #000;}
+
+.labIcn{float:left; width:108px; height:auto; margin:0 20px 0 0;}
+.labIcn img{ width:100%;}
+.labtxt{float:left; width:calc(100% - 130px); height:auto;}
+
+.h1{font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+	margin:0 0 10px 0;}
+.knowmor{ margin:10px; float:right; width:auto; color:#1360a6; font-size:15px; font-weight:600; position:absolute; right: 10px;
+    bottom: 0px;}	
+.knowmor:after{ content:''; width:10px; height:15px; background:url(../../images/moreIcn.png); position:absolute; right: -12px;
+    top: 4px;}
+#txtdot1, #txtdot2{height:65px; font-size:15px;}	
+
+
+
+@media screen and (max-width:1255px)
+{
+	.labOnco li{ height:200px;}
+}
+
+@media screen and (max-width: 768px){
+    .labOnco li{
+        height: 240px;
+    }
+}
+
+@media screen and (max-width: 767px)
+{
+	.labOnco li{ width:100%; margin: 10px 0;}
+	
+	.conditionTest li {
+    float: left;
+    width: calc(50% - 16px);
+	
+	}
+	
+	.dr-desktopBanner{  display:none;}
+.doctorBanner{ display:block}
+.doctorBanner img{ width:100%}
+.doctorSlider{ width:100%}
+.doctorSlider img{ width:100%}
+.doctorBanner .slick-dots{ bottom:-30px}
+
+.labOnco li{
+    height: auto;
+}
+#txtdot1, #txtdot2{
+    height: auto;
+}
+
+}
+
+@media screen and (max-width: 480px)
+{
+	.conditionTest li {
+    float: left;
+    width: calc(50% - 6px);
+	margin:3px;
+	}
+	
+	.labIcn {
+    float: left;
+    width: 40px;}
+}
+
+

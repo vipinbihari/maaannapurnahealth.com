@@ -1,0 +1,22 @@
+# Exclude Files From All Robots:
+ 
+User-agent: *
+Allow: / 
+
+ 
+Disallow: /statutory-compliance.aspx 
+Disallow: /beta.lalpathlabs.com/
+Disallow: /blog/wp-content/themes/wppremium/ 
+Disallow: /healthprogram/
+Disallow: /category/
+Disallow: /author/
+Disallow: /full-test-results.aspx
+Disallow: /cc_setlabs.aspx
+Disallow: /collectioncenter.aspx
+Disallow: /blog/blog/
+Disallow: /blog/abcdblog/
+Disallow: /blog/lib/
+
+Sitemap: https://www.lalpathlabs.com/sitemap.xml
+
+# End robots.txt file
